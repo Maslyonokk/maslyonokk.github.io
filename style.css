@@ -349,13 +349,19 @@ header{
     overflow-x: auto;
     white-space: nowrap;
     padding: 5px;
-    margin-bottom: 15vh;
+    margin-bottom: 8vh;
     margin-top: 5vh;
 }
 
 video{
     width:800px;
 }
+
+#video{
+    margin-bottom: 8vh;
+    margin-top: 5vh;
+}
+
 
 .multiple_images img{
     /* max-width: 75%; */
@@ -372,8 +378,11 @@ video{
 
 }
 
-.multiple_images #iterations{
+
+
+#iterations{
     /* width: 1000px; */
+
 }
 
 #iterations img{
