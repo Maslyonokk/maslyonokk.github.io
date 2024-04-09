@@ -348,7 +348,7 @@ header{
 
     overflow-x: auto;
     white-space: nowrap;
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 8vh;
     margin-top: 5vh;
 }
@@ -364,18 +364,15 @@ video{
 
 
 .multiple_images img{
-    /* max-width: 75%; */
-
-    /* flex: 1 1 auto; */
-    flex: 1 1 auto;
-
+    flex: 0 0 auto;
+    clip:auto;
+    max-height: 79vh;
     max-width:800px;
     /* max-width: 100%; */
-    /* height: auto;  */
-    max-height: 79vh;
+    height:95%;
+
     object-fit: contain; 
     margin: auto;
-
 }
 
 
@@ -470,6 +467,10 @@ video{
     background-color: #feec9a;
 }
 
+#id2_image{
+    background-color: #daaf53;
+}
+
 
 .wide_picture{
 
@@ -478,6 +479,7 @@ video{
     margin-left:calc((99vw - 100%) / -2);
     overflow: hidden;
     margin-bottom: 15vh;
+    overflow-x: auto;
 
 }
 
