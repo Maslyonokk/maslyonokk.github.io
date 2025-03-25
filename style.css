@@ -140,9 +140,18 @@ header{
     align-self: stretch; 
     max-height: 400px;
     /*outline: 1px solid blue; */
-    margin-top: 50;
-    margin-bottom: 50;
+
  }
+
+#gra {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    /* background-color: #7B8C85; */
+
+}
+
 
 
 .projects_list{
@@ -181,6 +190,7 @@ header{
 .work-link{
     
  }
+
 
 .project_body{
     max-width: 1000px;
