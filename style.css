@@ -187,6 +187,32 @@ header{
     margin-top: 80px;
 }
 
+
+
+.tag{
+    display: inline-block;
+    border-radius: 4px;
+    padding: .2em .5em .3em;
+    background: #5E6472;
+    color: #FEEC9A;
+    font-weight: 600;
+    margin: .25em .1em
+}
+
+.tag-alt{
+    display: inline-block;
+    border-radius: 4px;
+    padding: .2em .5em .3em;
+    background: #5E6472;
+    color: #FFB49A;
+    font-weight: 600;
+    margin: .25em .1em
+}
+
+p:has(.tag){
+    text-align: left;
+}
+
 .work-link{
     
  }
