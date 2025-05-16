@@ -7,7 +7,7 @@ body{
 }
 
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 0;
     padding: 0;
 }       
@@ -624,4 +624,18 @@ aside {
     color:black;
     text-shadow: 1px 1px blue;
     background-color: yellow;
+}
+
+
+.grid_summary{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    align-content: stretch;
+    justify-items: start;
+    justify-content: stretch;
+    gap: 16px;
+    padding: 48px 41px 48px 41px;
+
 }
